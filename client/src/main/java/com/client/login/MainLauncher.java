@@ -14,6 +14,7 @@ public class MainLauncher extends Application {
     private static Stage primaryStageObj;
 
     @Override
+
     public void start(Stage primaryStage) throws Exception {
         primaryStageObj = primaryStage;
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("views/LoginView.fxml"));
